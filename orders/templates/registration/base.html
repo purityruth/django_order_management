@@ -1,0 +1,24 @@
+{% load static %}
+
+<html>
+    <head>
+        <title>Savannah Informatics</title>       
+    </head>
+    <body class="container">
+        
+        {% include 'registration/login.html' %}
+
+        {% block content %}
+
+        <div>
+            <br><br><br>
+            <p style="font-size: 20"> </p>
+        </div>
+        
+        {% endblock %}
+
+        <hr>
+        {% include 'registration/login.html' %}
+        
+    </body>
+</html>
